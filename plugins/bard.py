@@ -1,7 +1,8 @@
 import requests
 from pyrogram import filters
 from strings.filters import command
-from YukkiMusic import api, app
+from YukkiMusic import app
+from SafoneAPI import SafoneAPI
 
 
 @app.on_message(command(["فريدوم"]))
