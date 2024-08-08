@@ -1,7 +1,9 @@
 from pyrogram import filters
 from strings.filters import command
+from TheApi import api
 from config import LOG_GROUP_ID
-from YukkiMusic import api, app
+from YukkiMusic import app
+from SafoneAPI import SafoneAPI
 
 
 @app.on_message(command("advice"))
