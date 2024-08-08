@@ -6,6 +6,7 @@ pyfiglet
 lexica-api
 MukeshAPI
 SafoneAPI
+telethon
 nekos.py
 telegraph
 uuid
